@@ -1,20 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
 <style>
-.t{font:700 52px Helvetica,Arial,sans-serif;fill:transparent;stroke:#000000;stroke-width:1.2;stroke-dasharray:900;stroke-dashoffset:900;animation:draw 3s ease forwards,fill .8s 2.6s forwards}
-.s{font:400 15px ui-monospace,Menlo,monospace;fill:#8a8a8a;letter-spacing:4px;opacity:0;animation:in 1s 3s forwards}
-.g{stroke:#000000;stroke-width:.4;opacity:.15}
-.m{fill:none;stroke:#000000;stroke-width:1.5}
-.c{fill:#000000;animation:blink 1s steps(1) infinite}
-@keyframes draw{to{stroke-dashoffset:0}}
-@keyframes fill{to{fill:#000000}}
-@keyframes in{to{opacity:1}}
-@keyframes blink{50%{opacity:0}}
+.mono{font:400 11px ui-monospace,Menlo,monospace;fill:#8a8a8a;letter-spacing:1px}
+.w1{font:700 56px Helvetica,Arial,sans-serif;fill:#000000}
+.w2{font:300 56px Helvetica,Arial,sans-serif;fill:#000000}
+.w3{font:italic 400 56px Georgia,serif;fill:#000000}
+.k{font:400 12px ui-monospace,Menlo,monospace;fill:#000000}
 </style>
 <rect width="900" height="300" fill="#ffffff"/>
-<g class="g"><line x1="0" y1="0" x2="0" y2="300"/><line x1="60" y1="0" x2="60" y2="300"/><line x1="120" y1="0" x2="120" y2="300"/><line x1="180" y1="0" x2="180" y2="300"/><line x1="240" y1="0" x2="240" y2="300"/><line x1="300" y1="0" x2="300" y2="300"/><line x1="360" y1="0" x2="360" y2="300"/><line x1="420" y1="0" x2="420" y2="300"/><line x1="480" y1="0" x2="480" y2="300"/><line x1="540" y1="0" x2="540" y2="300"/><line x1="600" y1="0" x2="600" y2="300"/><line x1="660" y1="0" x2="660" y2="300"/><line x1="720" y1="0" x2="720" y2="300"/><line x1="780" y1="0" x2="780" y2="300"/><line x1="840" y1="0" x2="840" y2="300"/><line x1="900" y1="0" x2="900" y2="300"/><line x1="0" y1="0" x2="900" y2="0"/><line x1="0" y1="60" x2="900" y2="60"/><line x1="0" y1="120" x2="900" y2="120"/><line x1="0" y1="180" x2="900" y2="180"/><line x1="0" y1="240" x2="900" y2="240"/><line x1="0" y1="300" x2="900" y2="300"/></g>
-<path class="m"><animate attributeName="d" dur="6s" repeatCount="indefinite" values="M720 90 a60 60 0 1 0 0.1 0Z;M660 90 h120 v120 h-120Z;M720 80 l65 125 h-130Z;M720 90 a60 60 0 1 0 0.1 0Z" keyTimes="0;.33;.66;1" calcMode="spline" keySplines=".7 0 .3 1;.7 0 .3 1;.7 0 .3 1"/></path>
-<circle r="3" fill="#000000"><animateMotion dur="6s" repeatCount="indefinite" path="M600 60 H840 V240 H600Z"/></circle>
-<text x="60" y="150" class="t">N. Razafindravonjy</text>
-<text x="62" y="200" class="s">DESIGNER — FORM / SYSTEMS / DETAIL</text>
-<rect x="62" y="225" width="10" height="16" class="c"/>
+<text x="24" y="28" class="mono">NRAZAFINDRAVONJY / PORTFOLIO.DESIGN</text>
+<line x1="0" y1="44" x2="900" y2="44" stroke="#e5e5e5"/>
+<line x1="690" y1="44" x2="690" y2="300" stroke="#e5e5e5"/>
+<text x="60" y="120" class="w1">Designer</text>
+<text x="420" y="120" class="w2">Systems</text>
+<text x="230" y="225" class="w3">Detail</text>
+<g fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="4 3">
+<rect><animate attributeName="x" dur="9s" repeatCount="indefinite" keyTimes="0;.28;.33;.61;.66;.94;1" values="50;50;410;410;219;219;50" calcMode="spline" keySplines="0 0 1 1;.7 0 .2 1;0 0 1 1;.7 0 .2 1;0 0 1 1;.7 0 .2 1"/><animate attributeName="y" dur="9s" repeatCount="indefinite" keyTimes="0;.28;.33;.61;.66;.94;1" values="64;64;64;64;170;170;64" calcMode="spline" keySplines="0 0 1 1;.7 0 .2 1;0 0 1 1;.7 0 .2 1;0 0 1 1;.7 0 .2 1"/><animate attributeName="width" dur="9s" repeatCount="indefinite" keyTimes="0;.28;.33;.61;.66;.94;1" values="260;260;235;235;161;161;260" calcMode="spline" keySplines="0 0 1 1;.7 0 .2 1;0 0 1 1;.7 0 .2 1;0 0 1 1;.7 0 .2 1"/><animate attributeName="height" dur="9s" repeatCount="indefinite" keyTimes="0;.28;.33;.61;.66;.94;1" values="73;73;73;73;72;72;73" calcMode="spline" keySplines="0 0 1 1;.7 0 .2 1;0 0 1 1;.7 0 .2 1;0 0 1 1;.7 0 .2 1"/><animate attributeName="stroke-dashoffset" from="0" to="-14" dur="1s" repeatCount="indefinite"/></rect>
+</g>
+<path d="M0 0 L0 17 L4.5 12.5 L8 20 L10.5 19 L7 11.5 L13 11.5Z" fill="#000000" stroke="#ffffff" stroke-width="1"><animateMotion dur="9s" repeatCount="indefinite" keyTimes="0;.28;.33;.61;.66;.94;1" keyPoints="0;0;.5;.5;1;1;0" calcMode="spline" keySplines="0 0 1 1;.7 0 .2 1;0 0 1 1;.7 0 .2 1;0 0 1 1;.7 0 .2 1" path="M314 141 L649 141 L384 246"/></path>
+<text x="710" y="78" class="mono">INSPECTOR</text>
+<g opacity='0'><animate attributeName='opacity' dur='9s' repeatCount='indefinite' keyTimes='0;.28;.33;.61;.66;.94;1' values='1;1;0;0;0;0;1' calcMode='discrete'/><text x='710' y='110' class='k'>Designer</text><text x='710' y='140' class='mono'>W 260   H 73</text><text x='710' y='164' class='mono'>HELVETICA BOLD</text><text x='710' y='188' class='mono'>ROLE / MAKER</text></g>
+<g opacity='0'><animate attributeName='opacity' dur='9s' repeatCount='indefinite' keyTimes='0;.28;.33;.61;.66;.94;1' values='0;0;1;1;0;0;0' calcMode='discrete'/><text x='710' y='110' class='k'>Systems</text><text x='710' y='140' class='mono'>W 235   H 73</text><text x='710' y='164' class='mono'>HELVETICA LIGHT</text><text x='710' y='188' class='mono'>TOKENS / GRIDS</text></g>
+<g opacity='0'><animate attributeName='opacity' dur='9s' repeatCount='indefinite' keyTimes='0;.28;.33;.61;.66;.94;1' values='0;0;0;0;1;1;0' calcMode='discrete'/><text x='710' y='110' class='k'>Detail</text><text x='710' y='140' class='mono'>W 161   H 72</text><text x='710' y='164' class='mono'>GEORGIA ITALIC</text><text x='710' y='188' class='mono'>1PX MATTERS</text></g>
+<text x="710" y="276" class="mono">© N. RAZAFINDRAVONJY</text>
 </svg>
