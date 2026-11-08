@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<style>
+.t{font:700 52px Helvetica,Arial,sans-serif;fill:transparent;stroke:#000000;stroke-width:1.2;stroke-dasharray:900;stroke-dashoffset:900;animation:draw 3s ease forwards,fill .8s 2.6s forwards}
+.s{font:400 15px ui-monospace,Menlo,monospace;fill:#8a8a8a;letter-spacing:4px;opacity:0;animation:in 1s 3s forwards}
+.g{stroke:#000000;stroke-width:.4;opacity:.15}
+.m{fill:none;stroke:#000000;stroke-width:1.5}
+.c{fill:#000000;animation:blink 1s steps(1) infinite}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fill{to{fill:#000000}}
+@keyframes in{to{opacity:1}}
+@keyframes blink{50%{opacity:0}}
+</style>
+<rect width="900" height="300" fill="#ffffff"/>
+<g class="g"><line x1="0" y1="0" x2="0" y2="300"/><line x1="60" y1="0" x2="60" y2="300"/><line x1="120" y1="0" x2="120" y2="300"/><line x1="180" y1="0" x2="180" y2="300"/><line x1="240" y1="0" x2="240" y2="300"/><line x1="300" y1="0" x2="300" y2="300"/><line x1="360" y1="0" x2="360" y2="300"/><line x1="420" y1="0" x2="420" y2="300"/><line x1="480" y1="0" x2="480" y2="300"/><line x1="540" y1="0" x2="540" y2="300"/><line x1="600" y1="0" x2="600" y2="300"/><line x1="660" y1="0" x2="660" y2="300"/><line x1="720" y1="0" x2="720" y2="300"/><line x1="780" y1="0" x2="780" y2="300"/><line x1="840" y1="0" x2="840" y2="300"/><line x1="900" y1="0" x2="900" y2="300"/><line x1="0" y1="0" x2="900" y2="0"/><line x1="0" y1="60" x2="900" y2="60"/><line x1="0" y1="120" x2="900" y2="120"/><line x1="0" y1="180" x2="900" y2="180"/><line x1="0" y1="240" x2="900" y2="240"/><line x1="0" y1="300" x2="900" y2="300"/></g>
+<path class="m"><animate attributeName="d" dur="6s" repeatCount="indefinite" values="M720 90 a60 60 0 1 0 0.1 0Z;M660 90 h120 v120 h-120Z;M720 80 l65 125 h-130Z;M720 90 a60 60 0 1 0 0.1 0Z" keyTimes="0;.33;.66;1" calcMode="spline" keySplines=".7 0 .3 1;.7 0 .3 1;.7 0 .3 1"/></path>
+<circle r="3" fill="#000000"><animateMotion dur="6s" repeatCount="indefinite" path="M600 60 H840 V240 H600Z"/></circle>
+<text x="60" y="150" class="t">N. Razafindravonjy</text>
+<text x="62" y="200" class="s">DESIGNER — FORM / SYSTEMS / DETAIL</text>
+<rect x="62" y="225" width="10" height="16" class="c"/>
+</svg>
