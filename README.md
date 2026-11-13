@@ -1,7 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="N. Razafindravonjy — Designer">
+  <img src="assets/header-light.svg" width="100%" alt="Patrick Razafindravonjy — Designer">
 </picture>
+
+# Patrick Razafindravonjy
+
+**Nirintsoa Patrick Razafindravonjy** — product & visual designer.
 
 ```
 I design interfaces, identities and the systems behind them.
