@@ -17,7 +17,7 @@ Less, but better.
 | № | Project | Focus |
 |---|---------|-------|
 | 01 | [**Trakeo**](https://github.com/nrazafindravonjy-cmd/trakeo) | Personal finance for students that simulates the rest of your month and shows what you can safely spend today. |
-| 02 | [**Venquesta**](https://github.com/nrazafindravonjy-cmd/eripoo) | Offline-first Flutter app that guides entrepreneurs in Madagascar, in Malagasy, French and English. |
+| 02 | [**Venquesta**](https://github.com/nrazafindravonjy-cmd/eripoo) | Offline-first Flutter app that guides entrepreneurs in Madagascar, in French and English. |
 | 03 | [**Tafita**](https://github.com/nrazafindravonjy-cmd/tafita) | Expo app to discover Madagascar's places, hidden gems and culture, and share travellers' finds. |
 
 ---
